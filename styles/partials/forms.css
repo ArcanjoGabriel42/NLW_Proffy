@@ -1,5 +1,5 @@
 .select-block label,
-.input-block label
+.input-block label,
 .textarea-block label{
     font-size: 1.4rem;
     color: var(--color-text-complement);
@@ -26,12 +26,12 @@
     resize: vertical;
 }
 
-.input-block
+.input-block,
 .textarea-block{
     position: relative;
 }
 
-.input-block:focus-within::after
+.input-block:focus-within::after,
 .textarea-block:focus-within::after{
     content: "";
 
