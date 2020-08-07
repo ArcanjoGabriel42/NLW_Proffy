@@ -1,0 +1,27 @@
+{
+  "name": "Proffy-Plataforma-de-Estudos-NLW",
+  "version": "1.0.0",
+  "description": "Repositório direcionado para o projeto web desenvolvido na Next Level Week 2 fornecido pela Rocketseat",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gabriel-Fadoul/Proffy-Plataforma-de-Estudos-NLW.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gabriel-Fadoul/Proffy-Plataforma-de-Estudos-NLW/issues"
+  },
+  "homepage": "https://github.com/Gabriel-Fadoul/Proffy-Plataforma-de-Estudos-NLW#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nunjucks": "^3.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
